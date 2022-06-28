@@ -1,5 +1,5 @@
 {% set name = "dyntapy" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dyntapy-{{ version }}.tar.gz
-  sha256: 4688b764cb354aa3743115ee7294e7d357d3d377bec9bec0a454fee3d2459017
+  sha256: 69180bec60f5e9e2a6ff4e0215d947a48c1766ef3d89eb0be22cb857dd3cc628
 
 build:
   noarch: python
@@ -47,7 +47,7 @@ test:
 about:
   home: https://gitlab.kuleuven.be/ITSCreaLab/public-toolboxes/dyntapy
   summary: Macroscopic Static and Dynamic Traffic Assignment in Python
-  license: GPL-3.0-only
+  license: GPL-3.0
   license_file: LICENSE.txt
 
 extra:
